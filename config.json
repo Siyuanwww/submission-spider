@@ -1,0 +1,29 @@
+{
+    "enable": {
+        "UOJ": true,
+        "LOJ": true,
+        "Luogu": false,
+        "BZOJ": false,
+        "Codeforces": false
+    },
+    "username": {
+        "dsy": {
+            "UOJ": "Siyuan",
+            "LOJ": "Siyuan",
+            "Luogu": "Siyuan",
+            "BZOJ": "Siyuan",
+            "Codeforces": "Siyuan"
+        },
+        "cyy": {
+            "UOJ": "SpongeBob",
+            "LOJ": "realSpongeBob",
+            "Luogu": "realSpongeBob",
+            "BZOJ": "",
+            "Codeforces": "realSpongeBob"
+        }
+    },
+    "cookie": {
+        "__client_id": "",
+        "_uid": 461529
+    }
+}

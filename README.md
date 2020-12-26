@@ -1,3 +1,11 @@
 # Steal studying spider
 
-每日爬取机房同学们在 UOJ, LOJ, Luogu, BZOJ, Codeforces 的偷学行径。
+```bash
+node --experimental-modules --es-module-specifier-resolution=node spider.mjs username
+```
+
+or
+
+```bash
+npm start username
+```

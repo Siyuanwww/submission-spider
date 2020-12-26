@@ -42,4 +42,4 @@ if (!username[user]) {
 	console.log('Error!');
 	process.exit(0);
 }
-getList(username[user])
+getList(username[user]);
