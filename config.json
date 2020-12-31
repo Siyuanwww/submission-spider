@@ -1,29 +1,78 @@
 {
-    "enable": {
-        "UOJ": true,
-        "LOJ": true,
-        "Luogu": false,
-        "BZOJ": false,
-        "Codeforces": false
-    },
-    "username": {
-        "dsy": {
-            "UOJ": "Siyuan",
-            "LOJ": "Siyuan",
-            "Luogu": "Siyuan",
-            "BZOJ": "Siyuan",
-            "Codeforces": "Siyuan"
-        },
-        "cyy": {
-            "UOJ": "SpongeBob",
-            "LOJ": "realSpongeBob",
-            "Luogu": "realSpongeBob",
-            "BZOJ": "",
-            "Codeforces": "realSpongeBob"
-        }
-    },
-    "cookie": {
-        "__client_id": "",
-        "_uid": 461529
-    }
+	"enable": {
+		"UOJ": true,
+		"LOJ": true,
+		"Luogu": true,
+		"BZOJ": true,
+		"Codeforces": true
+	},
+	"username": {
+		"dsy": {
+			"UOJ": "Siyuan",
+			"LOJ": "Siyuan",
+			"Luogu": "Siyuan",
+			"BZOJ": "Siyuan",
+			"Codeforces": "Siyuan"
+		},
+		"qy": {
+			"UOJ": "oyyj603450138",
+			"LOJ": "fffxk",
+			"Luogu": "qiyang2004",
+			"BZOJ": "ffffxk",
+			"Codeforces": "ffffxk"
+		},
+		"cyy": {
+			"UOJ": "SpongeBob",
+			"LOJ": "realSpongeBob",
+			"Luogu": "realSpongeBob",
+			"Codeforces": "realSpongeBob"
+		},
+		"wzs": {
+			"UOJ": "Crossing",
+			"LOJ": "Crossing",
+			"Luogu": "Crossing",
+			"BZOJ": "Crossing",
+			"Codeforces": "The_Crossing"
+		},
+		"zyh": {
+			"UOJ": "hengheng",
+			"LOJ": "hengheng",
+			"Luogu": "RARELY",
+			"Codeforces": "hengheng"
+		},
+		"wpc": {
+			"UOJ": "psysette",
+			"LOJ": "stepsys",
+			"Luogu": "stepsys",
+			"BZOJ": "stepsys",
+			"Codeforces": "stepsys"
+		},
+		"zyy": {
+			"LOJ": "jack_123456",
+			"Luogu": "zyy_123456",
+			"Codeforces": "jack_123456789"
+		},
+		"xyx": {
+			"UOJ": "x_Yi_x",
+			"LOJ": "x_Yi_x",
+			"Luogu": "58567",
+			"Codeforces": "Pataphysicist"
+		},
+		"zhr": {
+			"UOJ": "hehezhou",
+			"LOJ": "hehezhou",
+			"Luogu": "hehezhou",
+			"Codeforces": "hehezhou"
+		},
+		"zh": {
+			"UOJ": ""
+		},
+		"vjudge": {
+			"Codeforces": "vjudge1"
+		}
+	},
+	"cookie": {
+		"__client_id": "",
+		"_uid": 49725
+	}
 }
