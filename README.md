@@ -1,11 +1,12 @@
 # Steal studying spider
 
 ```bash
-node --experimental-modules --es-module-specifier-resolution=node spider.mjs username
+$ node --experimental-modules --es-module-specifier-resolution=node spider.mjs {username}
 ```
 
 or
 
 ```bash
-npm start username
+$ npm run spider {username}
+$ npm run oj {onlinejudge}.mjs {username}
 ```

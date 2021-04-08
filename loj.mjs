@@ -21,7 +21,7 @@ async function _loj(username) {
 		return !content.error && content.submissions && content.submissions.length > 0;
 	};
 	let list = [];
-	for (let maxId = 1000000000, content; check(content = await get(maxId), day); maxId = parseInt(content[content.length - 1].id) - 1) {
+	for (let maxId = 1000000000, content; check(content = await get(maxId)); maxId = parseInt(content[content.length - 1].id) - 1) {
 		content = content.submissions;
 		let paused = false;
 		for (let submission of content) {
@@ -31,7 +31,7 @@ async function _loj(username) {
 			}
 			let id = submission.problem.displayId;
 			let name = submission.problemTitle;
-			list.push(`「LOJ ${id}」${name}`);
+			list.push(`[LOJ ${id}] ${name}`);
 		}
 		if (paused) {
 			break;

@@ -1,5 +1,6 @@
 import request from 'request';
 const day = new Date(getDate()).getTime();
+// const day = new Date('2021-1-1').getTime();
 
 function getDate() {
 	return new Date().toLocaleDateString();

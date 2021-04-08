@@ -1,6 +1,6 @@
 import { day, getPage } from "./tool.mjs";
 import config from "./config.json";
-const cookie = config.cookie;
+const cookie = config.cookie.luogu;
 
 async function _luogu(username) {
 	let get = async (page) => {
@@ -31,7 +31,7 @@ async function _luogu(username) {
 				let problem = submission.problem;
 				let id = problem.pid;
 				let name = problem.title;
-				list.push(`「Luogu ${id}」${name}`);
+				list.push(`[Luogu ${id}] ${name}`);
 			}
 		}
 		if (paused) {

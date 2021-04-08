@@ -23,7 +23,7 @@ async function _codeforces(username) {
 			if (submission.verdict == 'OK') {
 				let problem = submission.problem;
 				let [id, name] = [(problem.contestId ? problem.contestId : 'acmsguru') + ' ' + problem.index, problem.name];
-				list.push(`「Codeforces ${id}」${name}`);
+				list.push(`[Codeforces ${id}] ${name}`);
 			}
 		}
 		if (paused) {

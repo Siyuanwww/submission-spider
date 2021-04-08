@@ -3,8 +3,9 @@
 		"UOJ": true,
 		"LOJ": true,
 		"Luogu": true,
-		"BZOJ": true,
-		"Codeforces": true
+		"BZOJ": false,
+		"Codeforces": true,
+		"VJudge": true
 	},
 	"username": {
 		"dsy": {
@@ -12,14 +13,16 @@
 			"LOJ": "Siyuan",
 			"Luogu": "Siyuan",
 			"BZOJ": "Siyuan",
-			"Codeforces": "Siyuan"
+			"Codeforces": "Siyuan",
+			"VJudge": "SiyuanQAQ"
 		},
 		"qy": {
 			"UOJ": "oyyj603450138",
 			"LOJ": "fffxk",
 			"Luogu": "qiyang2004",
 			"BZOJ": "ffffxk",
-			"Codeforces": "ffffxk"
+			"Codeforces": "ffffxk",
+			"VJudge": "slzxqy1"
 		},
 		"cyy": {
 			"UOJ": "SpongeBob",
@@ -32,7 +35,8 @@
 			"LOJ": "Crossing",
 			"Luogu": "Crossing",
 			"BZOJ": "Crossing",
-			"Codeforces": "The_Crossing"
+			"Codeforces": "The_Crossing",
+			"VJudge": "Crossing"
 		},
 		"zyh": {
 			"UOJ": "hengheng",
@@ -56,23 +60,68 @@
 			"UOJ": "x_Yi_x",
 			"LOJ": "x_Yi_x",
 			"Luogu": "58567",
-			"Codeforces": "Pataphysicist"
+			"Codeforces": "Comet_Honeymoon"
 		},
 		"zhr": {
 			"UOJ": "hehezhou",
 			"LOJ": "hehezhou",
 			"Luogu": "hehezhou",
-			"Codeforces": "hehezhou"
+			"Codeforces": "hehezhou",
+			"VJudge": "hehezhou"
 		},
-		"zh": {
-			"UOJ": ""
+		"zlm": {
+			"UOJ": "LMOliver",
+			"LOJ": "LMOliver",
+			"Luogu": "Little_Ming",
+			"Codeforces": "LMOliver"
 		},
-		"vjudge": {
-			"Codeforces": "vjudge1"
+		"wxh": {
+			"Luogu": "Katsura_Hinagiku",
+			"VJudge": "whql"
+		},
+		"syk": {
+			"LOJ": "sunyukai",
+			"Luogu": "sunyukai",
+			"Codeforces": "sunyukai"
+		},
+		"ckh": {
+			"Luogu": "C3H5ClO",
+			"UOJ": "C3H5ClO",
+			"LOJ": "chenkehan",
+			"Codeforces": "chenkehan",
+			"VJudge": "chenkehan"
+		},
+		"xk": {
+			"Luogu": "xukuan",
+			"UOJ": "xukuan",
+			"LOJ": "xukuan",
+			"Codeforces": "xukuan"
+		},
+		"hxb": {
+			"Luogu": "K1saki"
+		},
+		"zzx": {
+			"Luogu": "serverkiller",
+			"UOJ": "computerkiller",
+			"LOJ": "computerkiller",
+			"BZOJ": "computerkiller",
+			"Codeforces": "Widowmaker",
+			"VJudge": "severkiller"
 		}
 	},
 	"cookie": {
-		"__client_id": "",
-		"_uid": 49725
+		"luogu": {
+			"__client_id": "",
+			"_uid": 49725
+		},
+		"vjudge": {
+			"JSESSIONID": ""
+		}
+	},
+	"special": {
+		"dsy": "Siyuan 太菜了",
+		"wzs": "Crossing 爬爬爬",
+		"qy": "Qiyang 搞笑的",
+		"zhr": "hehezhou 什么题都不会，只会打隔膜！"
 	}
 }

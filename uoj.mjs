@@ -27,7 +27,7 @@ async function _get(username, onlineJudgeUrl, onlineJudgeName) {
 			let problem = content.substr(s, t - s);
 			let id = problem.match(/[0-9]*/).toString();
 			let name = problem.substr(id.length + 2);
-			list.push(`「${onlineJudgeName} ${id}」${name}`);
+			list.push(`[${onlineJudgeName} ${id}] ${name}`);
 			content = content.substr(q);
 		}
 		if (paused) {
