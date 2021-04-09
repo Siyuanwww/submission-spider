@@ -7,48 +7,45 @@ import { _codeforces } from './codeforces.mjs';
 import { _vjudge } from './vjudge.mjs';
 
 const enable = config.enable;
-const usernameList = config.username;
-const specialMessage = config.special;
-const onlineJudge = ['UOJ', 'LOJ', 'Luogu', 'BZOJ', 'Codeforces', 'VJudge'];
-const user = process.argv.length > 2 ? process.argv[2] : '';
+const user = config.user[process.argv[2]];
+;const onlineJudge = ['uoj', 'loj', 'luogu', 'bzoj', 'codeforces', 'vjudge'];
 
-const getSubmission = {
-	LOJ: _loj,
-	UOJ: _uoj,
-	Luogu: _luogu,
-	BZOJ: _bzoj,
-	Codeforces: _codeforces,
-	VJudge: _vjudge,
+const spider = {
+	uoj: _uoj,
+	loj: _loj,
+	luogu: _luogu,
+	bzoj: _bzoj,
+	codeforces: _codeforces,
+	vjudge: _vjudge,
 };
 
 async function getList(user) {
-	if (!usernameList[user]) {
-		console.log('Error!');
-		process.exit(0);
-	}
-	let username = usernameList[user];
 	let list = {};
 	for (let oj of onlineJudge) {
-		if (enable[oj]) {
-			list[oj] = [];
-			if (username[oj]) {
-				console.log(`[LOG] fetching ${oj}...`);
-				list[oj] = _.uniq(await getSubmission[oj](username[oj]));
-			}
+		list[oj] = [];
+		if (enable[oj] && user.account[oj]) {
+			console.log(`[LOG] fetching ${oj}...`);
+			list[oj] = _.uniq(await spider[oj](user.account[oj]));
 		}
 	}
-	let overview = [];
+	console.log();
+	console.log('User: ' + user.name);
+	let statistics = [];
 	for (let oj of onlineJudge) {
-		if (enable[oj] && list[oj].length > 0) {
+		if (list[oj].length > 0) {
 			console.log(list[oj].join('\n'));
-			overview.push(oj + ' ' + list[oj].length);
+			statistics.push(oj + ' ' + list[oj].length);
 		}
 	}
-	if (overview.length == 0) {
-		console.log(specialMessage[user] ? specialMessage[user] : "No problem.");
+	if (statistics.length == 0) {
+		console.log('No problem. ' + (user.special ? user.special : ''));
 	} else {
-		console.log('Total: ' + overview.join(' | '));
+		console.log('Total: ' + statistics.join(' | '));
 	}
 }
 
-getList(user);
+if (user) {
+	getList(user);
+} else {
+	console.log('Cannot find the user.');
+}

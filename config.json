@@ -1,113 +1,11 @@
 {
 	"enable": {
-		"UOJ": true,
-		"LOJ": true,
-		"Luogu": true,
-		"BZOJ": false,
-		"Codeforces": true,
-		"VJudge": true
-	},
-	"username": {
-		"dsy": {
-			"UOJ": "Siyuan",
-			"LOJ": "Siyuan",
-			"Luogu": "Siyuan",
-			"BZOJ": "Siyuan",
-			"Codeforces": "Siyuan",
-			"VJudge": "SiyuanQAQ"
-		},
-		"qy": {
-			"UOJ": "oyyj603450138",
-			"LOJ": "fffxk",
-			"Luogu": "qiyang2004",
-			"BZOJ": "ffffxk",
-			"Codeforces": "ffffxk",
-			"VJudge": "slzxqy1"
-		},
-		"cyy": {
-			"UOJ": "SpongeBob",
-			"LOJ": "realSpongeBob",
-			"Luogu": "realSpongeBob",
-			"Codeforces": "realSpongeBob"
-		},
-		"wzs": {
-			"UOJ": "Crossing",
-			"LOJ": "Crossing",
-			"Luogu": "Crossing",
-			"BZOJ": "Crossing",
-			"Codeforces": "The_Crossing",
-			"VJudge": "Crossing"
-		},
-		"zyh": {
-			"UOJ": "hengheng",
-			"LOJ": "hengheng",
-			"Luogu": "RARELY",
-			"Codeforces": "hengheng"
-		},
-		"wpc": {
-			"UOJ": "psysette",
-			"LOJ": "stepsys",
-			"Luogu": "stepsys",
-			"BZOJ": "stepsys",
-			"Codeforces": "stepsys"
-		},
-		"zyy": {
-			"LOJ": "jack_123456",
-			"Luogu": "zyy_123456",
-			"Codeforces": "jack_123456789"
-		},
-		"xyx": {
-			"UOJ": "x_Yi_x",
-			"LOJ": "x_Yi_x",
-			"Luogu": "58567",
-			"Codeforces": "Comet_Honeymoon"
-		},
-		"zhr": {
-			"UOJ": "hehezhou",
-			"LOJ": "hehezhou",
-			"Luogu": "hehezhou",
-			"Codeforces": "hehezhou",
-			"VJudge": "hehezhou"
-		},
-		"zlm": {
-			"UOJ": "LMOliver",
-			"LOJ": "LMOliver",
-			"Luogu": "Little_Ming",
-			"Codeforces": "LMOliver"
-		},
-		"wxh": {
-			"Luogu": "Katsura_Hinagiku",
-			"VJudge": "whql"
-		},
-		"syk": {
-			"LOJ": "sunyukai",
-			"Luogu": "sunyukai",
-			"Codeforces": "sunyukai"
-		},
-		"ckh": {
-			"Luogu": "C3H5ClO",
-			"UOJ": "C3H5ClO",
-			"LOJ": "chenkehan",
-			"Codeforces": "chenkehan",
-			"VJudge": "chenkehan"
-		},
-		"xk": {
-			"Luogu": "xukuan",
-			"UOJ": "xukuan",
-			"LOJ": "xukuan",
-			"Codeforces": "xukuan"
-		},
-		"hxb": {
-			"Luogu": "K1saki"
-		},
-		"zzx": {
-			"Luogu": "serverkiller",
-			"UOJ": "computerkiller",
-			"LOJ": "computerkiller",
-			"BZOJ": "computerkiller",
-			"Codeforces": "Widowmaker",
-			"VJudge": "severkiller"
-		}
+		"uoj": true,
+		"loj": true,
+		"luogu": true,
+		"bzoj": true,
+		"codeforces": true,
+		"vjudge": true
 	},
 	"cookie": {
 		"luogu": {
@@ -118,10 +16,158 @@
 			"JSESSIONID": ""
 		}
 	},
-	"special": {
-		"dsy": "Siyuan 太菜了",
-		"wzs": "Crossing 爬爬爬",
-		"qy": "Qiyang 搞笑的",
-		"zhr": "hehezhou 什么题都不会，只会打隔膜！"
+	"user": {
+		"dsy": {
+			"name": "丁思源",
+			"special": "Siyuan 太菜了！",
+			"account": {
+				"uoj": "Siyuan",
+				"loj": "Siyuan",
+				"luogu": "Siyuan",
+				"bzoj": "Siyuan",
+				"codeforces": "Siyuan",
+				"vjudge": "SiyuanQAQ"
+			}
+		},
+		"qy": {
+			"name": "戚洋",
+			"special": "Qiyang 搞笑的",
+			"account": {
+				"uoj": "oyyj603450138",
+				"loj": "fffxk",
+				"luogu": "qiyang2004",
+				"bzoj": "ffffxk",
+				"codeforces": "ffffxk",
+				"vjudge": "slzxqy1"
+			}
+		},
+		"wzs": {
+			"name": "王造时",
+			"special": "Crossing 爬爬爬",
+			"account": {
+				"uoj": "Crossing",
+				"loj": "Crossing",
+				"luogu": "Crossing",
+				"bzoj": "Crossing",
+				"codeforces": "The_Crossing",
+				"vjudge": "Crossing"
+			}
+		},
+		"zyh": {
+			"name": "张瑜恒",
+			"account": {
+				"uoj": "hengheng",
+				"loj": "hengheng",
+				"luogu": "RARELY",
+				"codeforces": "hengheng"
+			}
+		},
+		"wpc": {
+			"name": "王培成",
+			"account": {
+				"uoj": "psysette",
+				"loj": "stepsys",
+				"luogu": "stepsys",
+				"bzoj": "stepsys",
+				"codeforces": "stepsys"
+			}
+		},
+		"zyy": {
+			"name": "张越扬",
+			"list": {
+				"loj": "jack_123456",
+				"luogu": "zyy_123456",
+				"codeforces": "jack_123456789"
+			}
+		},
+		"cyy": {
+			"name": "陈奕阳",
+			"account": {
+				"uoj": "SpongeBob",
+				"loj": "realSpongeBob",
+				"luogu": "realSpongeBob",
+				"codeforces": "realSpongeBob"
+			}
+		},
+		"xyx": {
+			"name": "徐韫",
+			"account": {
+				"uoj": "x_Yi_x",
+				"loj": "x_Yi_x",
+				"luogu": "58567",
+				"codeforces": "Comet_Honeymoon"
+			}
+		},
+		"zhr": {
+			"name": "周航锐",
+			"special": "hehezhou 你又在打隔膜！",
+			"list": {
+				"uoj": "hehezhou",
+				"loj": "hehezhou",
+				"luogu": "hehezhou",
+				"codeforces": "hehezhou",
+				"vjudge": "hehezhou"
+			}
+		},
+		"zlm": {
+			"name": "郑路明",
+			"account": {
+				"uoj": "LMOliver",
+				"loj": "LMOliver",
+				"luogu": "Little_Ming",
+				"codeforces": "LMOliver"
+			}
+		},
+		"wxh": {
+			"name": "吴修灏",
+			"account": {
+				"luogu": "Katsura_Hinagiku",
+				"vjudge": "whql"
+			}
+		},
+		"syk": {
+			"name": "孙宇开",
+			"account": {
+				"loj": "sunyukai",
+				"luogu": "sunyukai",
+				"codeforces": "sunyukai"
+			}
+		},
+		"ckh": {
+			"name": "陈可汗",
+			"account": {
+				"luogu": "C3H5ClO",
+				"uoj": "C3H5ClO",
+				"loj": "chenkehan",
+				"codeforces": "chenkehan",
+				"vjudge": "chenkehan"
+			}
+		},
+		"xk": {
+			"name": "徐宽",
+			"account": {
+				"luogu": "xukuan",
+				"uoj": "xukuan",
+				"loj": "xukuan",
+				"codeforces": "xukuan"
+			}
+		},
+		"hxb": {
+			"name": "胡肖邦",
+			"account": {
+				"luogu": "K1saki"
+			}
+		},
+		"zzx": {
+			"name": "左兆雄",
+			"account": {
+				"luogu": "serverkiller",
+				"uoj": "computerkiller",
+				"loj": "computerkiller",
+				"bzoj": "computerkiller",
+				"codeforces": "Widowmaker",
+				"vjudge": "severkiller"
+			}
+		}
 	}
 }
