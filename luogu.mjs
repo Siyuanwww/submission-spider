@@ -1,11 +1,11 @@
 import { day, getPage } from "./tool.mjs";
 import config from "./config.json";
 const cookie = config.cookie.luogu;
-
+let color = "灰红橙黄绿蓝紫黑";
 async function _luogu(username) {
 	let get = async (page) => {
 		let content = await getPage({
-			url: `https://www.luogu.com.cn/record/list?user=${username}&page=${page}`,
+			url: `https://www.luogu.com.cn/record/list?user=${username}&status=12&page=${page}`,
 			method: 'GET',
 			headers: {
 				cookie: `__client_id=${cookie.__client_id}; _uid=${cookie._uid}`,
@@ -27,12 +27,11 @@ async function _luogu(username) {
 				paused = true;
 				break;
 			}
-			if (submission.status == 12) {
-				let problem = submission.problem;
-				let id = problem.pid;
-				let name = problem.title;
-				list.push(`[Luogu ${id}] ${name}`);
-			}
+			let problem = submission.problem;
+			let id = problem.pid;
+			let name = problem.title;
+			let difficulty = color[problem.difficulty];
+			list.push(`${difficulty} [Luogu ${id}] ${name}`);
 		}
 		if (paused) {
 			break;
